@@ -41,6 +41,9 @@
 
   ];
 
+  $parking = 'non è possobile parcheggiare';
+
+  $parkingYes = 'è possibile parcheggiare';
 ?>
 
 <!DOCTYPE html>
@@ -80,9 +83,9 @@
                 <?php echo $item ?> 
               </div>
             </li>
-          <?php endforeach ?>
+          <?php endforeach; ?>
         </ul>
-      <?php endforeach ?>
+      <?php endforeach; ?>
     </div>
 
   </section>
