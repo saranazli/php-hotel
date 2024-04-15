@@ -2,6 +2,23 @@ body{
   background-color: peru;
 }
 
+ul{
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
 li{
   list-style: none;
+  color: gold;
+  font-size: 1.5rem;
+}
+.name{
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.3px;
+}
+.in{
+  color: white;
+}
+h1, h2{
+  color: white;
 }
